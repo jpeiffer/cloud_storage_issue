@@ -10,8 +10,7 @@ newline character.  For example, uploading this text:
 Hello World!
 ```
 
-Results in this being stored in Cloud Storage's emulator (extra newline exists
-in the source MD file but isn't rendered in the HTML version):
+Results in this being stored in Cloud Storage's emulator:
 ```
 
 SGVsbG8gV29ybGQh
