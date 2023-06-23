@@ -1,0 +1,45 @@
+name: cloud_storage_issue
+version: 1.0.0
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  googleapis: '^11.2.0'
+  googleapis_auth: '^1.4.1'
+  http: '^1.0.0'
+  intl: '^0.18.1'
+  json_class: '^2.2.1+3'
+  logging: '^1.2.0'
+  meta: '^1.9.1'
+  mime: '^1.0.4'
+  path: '^1.8.3'
+  yaon: '^1.1.1'
+
+dev_dependencies:
+  flutter_lints: '^2.0.1'
+  test: ^1.21.1
+
+ignore_updates:
+  # Ignoring everything in flutter_test as those are all point-in-time entries
+  # can't upgrade without upgrading Flutter itself.
+  - 'async'
+  - 'boolean_selector'
+  - 'characters'
+  - 'charcode'
+  - 'collection'
+  - 'clock'
+  - 'fake_async'
+  - 'file'
+  - 'matcher'
+  - 'material_color_utilities'
+  - 'meta'
+  - 'path'
+  - 'source_span'
+  - 'stack_trace'
+  - 'stream_channel'
+  - 'string_scanner'
+  - 'term_glyph'
+  - 'vector_math'
